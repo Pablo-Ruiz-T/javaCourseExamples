@@ -22,3 +22,7 @@ Instalar Java SE - Openjdk (java y javac)
 
 Actualizar el PATH de tu máquina para incluir ./bin
 [Modificacion Path](https://www.java.com/en/download/help/path.xml)
+
+## JDK vs JRE
+
+## Concepto clase y mensaje
