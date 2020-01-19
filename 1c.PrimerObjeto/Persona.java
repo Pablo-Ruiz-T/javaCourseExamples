@@ -46,7 +46,13 @@ public class Persona{
 
 	public boolean isMayorEdad()
 	{
-		return edad>= MAYOREDAD;
+		return edad >= MAYOREDAD;
+		/*Podríamos haber realizado una implementación más compleja de este estilo
+		boolean mayorEdad = false;
+		if(edad >= MAYOREDAD)
+			mayorEdad = true;
+		return mayorEdad;
+		*/
 	}
 
 }
