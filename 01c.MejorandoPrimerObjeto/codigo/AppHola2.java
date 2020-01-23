@@ -2,6 +2,15 @@ public class AppHola2 {
 	
 	public static void main (String argv[])
 	{
+		String s = "hola"; // String s = new String(['h','o','l','a']);
+		Pelicula pelicula = new Pelicula();
+
+		pelicula.setNombre("El Jocker");
+		pelicula.setPuntuacion(8);
+
+		Persona pConPelicula = new Persona("Juan",pelicula);
+		System.out.println(pConPelicula.getInfo());
+
 		Persona[] ps = new Persona[10];
 		ps[3] = new Persona("David","Perez","Gomez",17);
 
